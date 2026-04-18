@@ -1,90 +1,72 @@
 export const portfolioData = {
-  name: "Ashok Batta",
-  title: "Data Analyst & ML Engineer",
-  location: "Chennai, India",
-  email: "batakala.ashok@netradyne.com",
-  github: "https://github.com/ashokb-nd",
-  linkedin: "https://www.linkedin.com/in/ashok-batakala/",
-  googleScholar: "",
-  twitter: "",
-  instagram: "",
+  name: "Your Name",
+  title: "Your Title",
+  location: "Location",
+  email: "email@example.com",
+  github: "https://github.com/username",
+  linkedin: "https://linkedin.com/in/username",
+  googleScholar: "https://scholar.google.com/",
+  twitter: "https://twitter.com/username",
+  instagram: "https://instagram.com/username",
   
   about: {
-    description: "I am a Data Analyst and Machine Learning Engineer at Netradyne, working on driver safety analytics and ML models for alert systems. I specialize in Python, data analysis, and building scalable data pipelines.",
-    interests: ["Machine Learning", "Data Analysis", "Deep Learning", "Driver Safety Systems"],
-    university: "Netradyne",
-    advisor: "",
-    affiliation: "Netradyne",
-    affiliationLink: "https://www.netradyne.com",
-    previous: "Previously worked on data analytics and ML solutions.",
+    description: "Your introduction paragraph. Write about your research interests, what you're working on, and your background.",
+    interests: ["Interest 1", "Interest 2", "Interest 3"],
+    university: "University Name",
+    advisor: "Advisor Name",
+    advisorLink: "https://advisor website",
+    affiliation: "Lab/Center Name",
+    affiliationLink: "https://lab website",
+    previous: "Previously, worked at Previous Company or was a student at Previous University.",
   },
 
   education: [
     {
-      degree: "B.Tech in Computer Science",
-      institution: "IIT Delhi",
-      year: "2020-2024",
-      link: "https://home.iitd.ac.in"
+      degree: "Degree",
+      institution: "Institution",
+      year: "Year",
+      link: "https://institution website"
     }
   ],
 
   experience: [
     {
-      role: "Data Analyst & ML Engineer",
-      company: "Netradyne",
-      period: "2024 - Present",
-      description: "Working on driver safety analytics and ML models for alert systems."
-    }
-  ],
-
-  skills: [
-    "Python", "Machine Learning", "Data Analysis", "SQL", 
-    "Pandas/NumPy", "Deep Learning", "Git", "React"
-  ],
-
-  projects: [
-    {
-      title: "DSF Analytics Dashboard",
-      description: "A comprehensive analytics dashboard for Driver Safety Feed (DSF) data visualization and analysis.",
-      tech: ["Python", "Pandas", "React", "TypeScript"],
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Alert Classification Model",
-      description: "ML model to classify and predict driver alerts based on sensor data and driving patterns.",
-      tech: ["Python", "Scikit-learn", "XGBoost"],
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Driver Impairment Detection",
-      description: "Deep learning model for detecting driver impairment from camera and sensor inputs.",
-      tech: ["Python", "PyTorch", "OpenCV"],
-      link: "#",
-      github: "#"
+      role: "Role",
+      company: "Company",
+      period: "Year",
+      link: "https://company website"
     }
   ],
 
   publications: [
     {
-      title: "Driver Alert Classification Model",
-      description: "ML model for classifying driver alerts based on telematics data.",
-      year: "2024",
-      venue: "Internal"
+      title: "Paper Title",
+      authors: "Author 1, Author 2, You",
+      venue: "Conference Name Year",
+      link: "https://arxiv.org/...",
+      code: "https://github.com/...",
+      data: "https://...",
+      website: "https://..."
     }
   ],
 
   news: [
     {
-      date: "2024",
-      text: "Joined Netradyne as Data Analyst & ML Engineer"
-    },
-    {
-      date: "2024",
-      text: "Graduated from IIT Delhi with B.Tech in Computer Science"
+      date: "Month, Year",
+      text: "News item"
     }
   ],
 
-  teaching: []
+  teaching: [
+    {
+      role: "Role",
+      course: "Course Name",
+      university: "University",
+      link: "course website",
+      instructor: "Instructor Name"
+    }
+  ],
+
+  art: "",
+  photography: "https://instagram.com/username"
 };
