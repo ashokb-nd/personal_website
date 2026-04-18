@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ashok Batta | Portfolio",
-  description: "Data Analyst & ML Engineer - Portfolio",
+  title: "Ashok Batta",
+  description: "Data Analyst & ML Engineer at Netradyne",
 };
 
 export default function RootLayout({
@@ -24,18 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col bg-slate-950 text-slate-200">
-        <Navigation />
-        <main className="flex-1 pt-20">
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} min-h-full bg-slate-50 text-slate-900`}>
+        <div className="max-w-4xl mx-auto px-6 py-12">
           {children}
-        </main>
-        <footer className="py-6 text-center text-slate-500 text-sm border-t border-slate-800">
-          <p>© {new Date().getFullYear()} Ashok Batta. All rights reserved.</p>
-        </footer>
+        </div>
       </body>
     </html>
   );
